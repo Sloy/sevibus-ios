@@ -15,6 +15,7 @@
 		05926E471EEA89FB00CEE654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05926E451EEA89FB00CEE654 /* LaunchScreen.storyboard */; };
 		05926E521EEA89FB00CEE654 /* SeviBus_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05926E511EEA89FB00CEE654 /* SeviBus_iOSTests.swift */; };
 		05926E5D1EEA89FB00CEE654 /* SeviBus_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05926E5C1EEA89FB00CEE654 /* SeviBus_iOSUITests.swift */; };
+		354B2E1E4503209BFD888B5B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B24293468F9DD7CC50478 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05926E581EEA89FB00CEE654 /* SeviBus iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeviBus iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05926E5C1EEA89FB00CEE654 /* SeviBus_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeviBus_iOSUITests.swift; sourceTree = "<group>"; };
 		05926E5E1EEA89FB00CEE654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354B24293468F9DD7CC50478 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				05926E431EEA89FB00CEE654 /* Assets.xcassets */,
 				05926E451EEA89FB00CEE654 /* LaunchScreen.storyboard */,
 				05926E481EEA89FB00CEE654 /* Info.plist */,
+				354B24293468F9DD7CC50478 /* Model.swift */,
 			);
 			path = "SeviBus iOS";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				05926E3F1EEA89FB00CEE654 /* SecondViewController.swift in Sources */,
 				05926E3B1EEA89FB00CEE654 /* AppDelegate.swift in Sources */,
 				05926E3D1EEA89FB00CEE654 /* FirstViewController.swift in Sources */,
+				354B2E1E4503209BFD888B5B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
